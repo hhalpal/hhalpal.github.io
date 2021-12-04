@@ -1,0 +1,310 @@
+body{
+	background-color: #F8F4F3;
+}
+
+#title{
+	text-align: center;
+}
+#content1 {
+	max-width: 1000px;
+	padding: 20px 30px;
+	margin-top: 20px;
+}
+
+#content2 {
+	max-width: 1000px;
+	padding: 20px 30px;
+	margin-top: 800px;
+	margin-left: 310px;
+}
+
+#bottom-banner{
+	position: absolute;
+	margin-top: 950px;
+	margin-left: 20px;
+}
+
+#jan:hover{
+    cursor:pointer;
+	animation-name: rotate;
+	animation-duration: 0.75s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+
+}
+#feb:hover{
+    cursor:pointer;
+	animation-name: rotate;
+	animation-duration: 0.75s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+
+}
+#mar:hover{
+    cursor:pointer;
+	animation-name: rotate;
+	animation-duration: 0.75s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+
+}
+#apr:hover{
+    cursor:pointer;
+	animation-name: rotate;
+	animation-duration: 0.75s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+
+}
+#may:hover{
+    cursor:pointer;
+	animation-name: rotate;
+	animation-duration: 0.75s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+
+}
+#jun:hover{
+    cursor:pointer;
+	animation-name: rotate;
+	animation-duration: 0.75s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+
+}
+#jul:hover{
+    cursor:pointer;
+	animation-name: rotate;
+	animation-duration: 0.75s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+
+}
+#aug:hover{
+    cursor:pointer;
+	animation-name: rotate;
+	animation-duration: 0.75s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+
+}
+#sept:hover{
+    cursor:pointer;
+	animation-name: rotate;
+	animation-duration: 0.75s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+
+}
+#oct:hover{
+    cursor:pointer;
+	animation-name: rotate;
+	animation-duration: 0.75s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+
+}
+#nov:hover{
+    cursor:pointer;
+	animation-name: rotate;
+	animation-duration: 0.75s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+
+}
+#dec:hover{
+    cursor:pointer;
+	animation-name: rotate;
+	animation-duration: 0.75s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+
+}
+
+@keyframes rotate {
+	0% {
+		-webkit-transform: rotate(0deg); 
+        transform:rotate(0deg); 
+	}
+	50%{
+		-webkit-transform: rotate(-5deg); 
+        transform:rotate(-5deg); 
+	}
+	75% { 
+        -webkit-transform: rotate(5deg); 
+        transform:rotate(5deg); 
+    } 
+	100% {
+		-webkit-transform: rotate(0deg); 
+        transform:rotate(0deg); 
+	}
+ }
+ 
+@keyframes fadein {
+	from { opacity: 0%; }
+    to   { opacity: 100%; }
+} 
+
+#welcome{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 585px;
+	animation-name: fadein;
+	animation-duration: 2.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+#cow{
+	position: absolute;
+	margin-top: 130px;
+	margin-left: 600px;
+	animation: fadein 2.5s ease-in 0s 1;
+}
+#title{
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 150px;
+	animation: fadein 2.5s ease-in 0s 1;
+}
+#celebrating{
+	position: absolute;
+	margin-top: 600px;
+	margin-left: 530px;
+	animation: fadein 2.5s ease-in 0s 1;
+}
+
+#jan{
+	position: absolute;
+	margin-top: 50px;
+}
+#feb{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 390px;
+}
+#mar{
+	position: absolute;
+	margin-top: 75px;
+	margin-left: 730px;
+}
+
+#apr{
+	position: absolute;
+	margin-top: 280px;
+	margin-left: 20px;
+}
+#may{
+	position: absolute;
+	margin-top: 270px;
+	margin-left: 340px;
+}
+#jun{
+	position: absolute;
+	margin-top: 270px;
+	margin-left: 700px;
+}
+
+#jul{
+	position: absolute;
+	margin-top: 510px;
+	margin-left: 50px;
+}
+#aug{
+	position: absolute;
+	margin-top: 510px;
+	margin-left: 380px;
+}
+#sept{
+	position: absolute;
+	margin-top: 510px;
+	margin-left: 730px;
+}
+
+#oct{
+	position: absolute;
+	margin-top: 780px;
+	margin-left: 80px;
+}
+#nov{
+	position: absolute;
+	margin-top: 770px;
+	margin-left: 390px;
+}
+#dec{
+	position: absolute;
+	margin-top: 710px;
+	margin-left: 690px;
+}
+
+
+/*JS*/
+#pictures {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 680px;
+    margin: auto;
+    text-align: center;
+}
+#pictures img {
+    width: 200px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+.hidden {
+    display: none;
+}
+#lightbox-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.lightbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
+.lightbox img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.lightbox .caption {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    background: white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
